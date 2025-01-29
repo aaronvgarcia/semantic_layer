@@ -1,0 +1,14 @@
+---
+name: Standard Reports Search Sessions
+description: All Search Session Data
+tags:
+- Search
+- Semantic Layer
+sql: SELECT * FROM standard_reports.search_sessions
+timestampColumn: min_search_event_added
+timestampAsDay: false
+idTypeMapping:
+- statsigUnitID: userID
+  column: person_pk
+- statsigUnitID: rover_cid
+  column: common_identifier
