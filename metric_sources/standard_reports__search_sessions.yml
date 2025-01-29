@@ -5,7 +5,7 @@ isReadOnly: true
 tags:
 - Search
 - Semantic Layer
-sql: SELECT * FROM statsig.standard_reports.search_sessions
+sql: SELECT * FROM standard_reports.search_sessions
 timestampColumn: min_search_event_added
 timestampAsDay: false
 idTypeMapping:
