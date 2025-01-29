@@ -1,0 +1,23 @@
+---
+name: Has Search Session
+directionality: increase
+type: user_warehouse
+description: 'Determine if Bucketed Users has at least one search session'
+isPermanent: false
+isReadOnly: true
+isHidden: false
+isVerified: true
+tags:
+- Semantic Layer
+- Search
+creatorName: Aaron Garcia
+creatorEmail: aaron.garcia@rover.com
+owner:
+  name: Aaron Garcia
+team: 
+metricDefinition:
+  aggregation: unit_count
+  metricSourceName: Standard Reports Search Sessions
+  metricDimensionColumns:
+  - new_repeat
+id: Semantic Layer Purchase Revenue::user_warehouse
