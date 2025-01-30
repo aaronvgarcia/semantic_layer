@@ -1,8 +1,9 @@
 ---
+id: Has Search Session::user_warehouse
 name: Has Search Session
 directionality: increase
 type: user_warehouse
-description: 'Determine if Bucketed Users has at least one search session'
+description: 'Binary (1/0) whether a a bucketed user had a search session'
 isPermanent: false
 isReadOnly: true
 isHidden: false
@@ -14,10 +15,11 @@ creatorName: Aaron Garcia
 creatorEmail: aaron.garcia@rover.com
 owner:
   name: Aaron Garcia
-team: 
+team: Search Experience
 metricDefinition:
-  aggregation: unit_count
+  aggregation: daily_participation
   metricSourceName: Standard Reports Search Sessions
-  metricDimensionColumns:
-  - new_repeat
-id: Has Search Session::user_warehouse
+  rollupTimeWindow: max
+unitTypes:
+- rover_cid
+- userID
