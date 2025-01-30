@@ -6,7 +6,7 @@ description: 'Determine if Bucketed Users has at least one search session'
 isPermanent: false
 isReadOnly: true
 isHidden: false
-isVerified: true
+isVerified: false
 tags:
 - Semantic Layer
 - Search
