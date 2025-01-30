@@ -21,4 +21,5 @@ metricDefinition:
   metricSourceName: Standard Reports Search Sessions
   rollupTimeWindow: max
 unitTypes:
-  rover_cid, userID
+- rover_cid
+- userID
