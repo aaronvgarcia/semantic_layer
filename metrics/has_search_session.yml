@@ -20,4 +20,4 @@ metricDefinition:
   metricSourceName: Standard Reports Search Sessions
   metricDimensionColumns:
   - new_repeat
-id: Semantic Layer Purchase Revenue::user_warehouse
+id: Has Search Session::user_warehouse
