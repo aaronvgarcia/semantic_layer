@@ -16,10 +16,11 @@ creatorEmail: aaron.garcia@rover.com
 owner:
   name: Aaron Garcia
 team: Search Experience
+unitTypes:
+- userID
+- rover_cid
 metricDefinition:
   aggregation: daily_participation
   metricSourceName: Standard Reports Search Sessions
   rollupTimeWindow: max
-unitTypes:
-- rover_cid
-- userID
+
