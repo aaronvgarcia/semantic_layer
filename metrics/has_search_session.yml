@@ -5,7 +5,7 @@ directionality: increase
 type: user_warehouse
 description: 'Binary (1/0) whether a a bucketed user had a search session'
 isPermanent: false
-isReadOnly: true
+isReadOnly: false
 isHidden: false
 isVerified: false
 tags:
