@@ -1,11 +1,11 @@
 ---
 name: Standard Reports Search Sessions
 description: All Search Session Data
-isReadOnly: false
+isReadOnly: true
 tags:
 - Search
 - Semantic Layer
-sql: SELECT * FROM standard_reports.search_sessions WHERE min_search_event_added BETWEEN {statsig_start_date} AND {statsig_end_date}
+sql: SELECT * FROM standard_reports.search_sessions WHERE min_search_event_added
 timestampColumn: min_search_event_added
 timestampAsDay: false
 idTypeMapping:
