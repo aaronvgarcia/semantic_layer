@@ -1,7 +1,7 @@
 ---
 name: Standard Reports Search Sessions
 description: All Search Session Data
-isReadOnly: true
+isReadOnly: false
 tags:
 - Search
 - Semantic Layer
